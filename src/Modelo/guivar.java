@@ -14,5 +14,5 @@ public class guivar {
     // guivar maricon
     //ya estan maricones, espero el cebiche chivos
     //cambio y fuera
-    
+    //si no hacen esos pasos la cagan
 }
