@@ -12,6 +12,7 @@ public class guivar {
     
     //GUIVAR TE HAGO UN HIJO ?
     // guivar maricon
+    //ya estan maricones, espero el cebiche chivos
     
     
 }
