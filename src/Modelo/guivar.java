@@ -9,7 +9,8 @@ package Modelo;
  * @author LUIS GUIVAR
  */
 public class guivar {
-    // guivar eres bien chivo
-    //holi mechan
+    
+    //GUIVAR TE HAGO UN HIJO ?
+    
     
 }
