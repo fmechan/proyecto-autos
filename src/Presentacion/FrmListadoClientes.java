@@ -5,6 +5,7 @@
  */
 package Presentacion;
 
+import Modelo.Roles;
 import Negocio.ERoles;
 import java.util.ArrayList;
 import javax.swing.JLabel;
@@ -12,7 +13,7 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
-import Modelos.Roles;
+
 import java.awt.Color;
 import javax.swing.BorderFactory;
 import javax.swing.border.Border;
