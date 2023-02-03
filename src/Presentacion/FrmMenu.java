@@ -55,6 +55,7 @@ public class FrmMenu extends javax.swing.JFrame {
         itemMarcas = new javax.swing.JMenuItem();
         itemModelos = new javax.swing.JMenuItem();
         itemAutos = new javax.swing.JMenuItem();
+        jMenuItem1 = new javax.swing.JMenuItem();
         mnuReportes = new javax.swing.JMenu();
         mnuSistema = new javax.swing.JMenu();
         itemSalir = new javax.swing.JMenuItem();
@@ -117,6 +118,10 @@ public class FrmMenu extends javax.swing.JFrame {
             }
         });
         mnuGestion.add(itemAutos);
+
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/gestion-de-equipos.png"))); // NOI18N
+        jMenuItem1.setText("Clientes");
+        mnuGestion.add(jMenuItem1);
 
         jMenuBar1.add(mnuGestion);
 
@@ -253,6 +258,7 @@ public class FrmMenu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JLabel lblUsuarios;
     private javax.swing.JMenu mnuAdministracion;
     private javax.swing.JMenu mnuGestion;

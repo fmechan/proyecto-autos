@@ -6,18 +6,20 @@ package Negocio;
 
 /**
  *
- * @author Usuario
+ * @author LUIS GUIVAR
  */
 public class EClientes {
-    
+ 
     private int id;
-    private String dni;
+    private String tipo_cliente;
+    private String tipo_documento;
+    private String num_documento;
     private String nombres;
-    private String usuario;
-    private String clave;
-    private String correo;
-    private String estado;
-    
+    private String apellidos;
+    private String genero;
+    private String fecha_nac;
+    private String direccion;
+    private String telefono;
 
     /**
      * @return the id
@@ -34,17 +36,45 @@ public class EClientes {
     }
 
     /**
-     * @return the dni
+     * @return the tipo_cliente
      */
-    public String getDni() {
-        return dni;
+    public String getTipo_cliente() {
+        return tipo_cliente;
     }
 
     /**
-     * @param dni the dni to set
+     * @param tipo_cliente the tipo_cliente to set
      */
-    public void setDni(String dni) {
-        this.dni = dni;
+    public void setTipo_cliente(String tipo_cliente) {
+        this.tipo_cliente = tipo_cliente;
+    }
+
+    /**
+     * @return the tipo_documento
+     */
+    public String getTipo_documento() {
+        return tipo_documento;
+    }
+
+    /**
+     * @param tipo_documento the tipo_documento to set
+     */
+    public void setTipo_documento(String tipo_documento) {
+        this.tipo_documento = tipo_documento;
+    }
+
+    /**
+     * @return the num_documento
+     */
+    public String getNum_documento() {
+        return num_documento;
+    }
+
+    /**
+     * @param num_documento the num_documento to set
+     */
+    public void setNum_documento(String num_documento) {
+        this.num_documento = num_documento;
     }
 
     /**
@@ -62,60 +92,76 @@ public class EClientes {
     }
 
     /**
-     * @return the usuario
+     * @return the apellidos
      */
-    public String getUsuario() {
-        return usuario;
+    public String getApellidos() {
+        return apellidos;
     }
 
     /**
-     * @param usuario the usuario to set
+     * @param apellidos the apellidos to set
      */
-    public void setUsuario(String usuario) {
-        this.usuario = usuario;
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
     }
 
     /**
-     * @return the clave
+     * @return the genero
      */
-    public String getClave() {
-        return clave;
+    public String getGenero() {
+        return genero;
     }
 
     /**
-     * @param clave the clave to set
+     * @param genero the genero to set
      */
-    public void setClave(String clave) {
-        this.clave = clave;
+    public void setGenero(String genero) {
+        this.genero = genero;
     }
 
     /**
-     * @return the correo
+     * @return the fecha_nac
      */
-    public String getCorreo() {
-        return correo;
+    public String getFecha_nac() {
+        return fecha_nac;
     }
 
     /**
-     * @param correo the correo to set
+     * @param fecha_nac the fecha_nac to set
      */
-    public void setCorreo(String correo) {
-        this.correo = correo;
+    public void setFecha_nac(String fecha_nac) {
+        this.fecha_nac = fecha_nac;
     }
 
     /**
-     * @return the estado
+     * @return the direccion
      */
-    public String getEstado() {
-        return estado;
+    public String getDireccion() {
+        return direccion;
     }
 
     /**
-     * @param estado the estado to set
+     * @param direccion the direccion to set
      */
-    public void setEstado(String estado) {
-        this.estado = estado;
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
+
+    /**
+     * @return the telefono
+     */
+    public String getTelefono() {
+        return telefono;
+    }
+
+    /**
+     * @param telefono the telefono to set
+     */
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+    }
+
+   
     
     
 }
