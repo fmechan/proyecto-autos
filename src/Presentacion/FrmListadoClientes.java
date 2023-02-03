@@ -32,7 +32,7 @@ public class FrmListadoClientes extends javax.swing.JFrame implements IFormActiv
             return false;
         }
     };  
-    
+    //EJEMPLO BORRAR ESAT LINEA
     public FrmListadoClientes() {
         initComponents();
         this.setLocationRelativeTo(this);
