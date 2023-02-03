@@ -37,7 +37,7 @@ public class Autos {
             
         try{
             
-            stmt = connect.prepareCall("SELECT * FROM func_listar_auto)");
+            stmt = connect.prepareCall("SELECT * FROM func_listar_auto()");
             rs = stmt.executeQuery();
             
             while(rs.next()){

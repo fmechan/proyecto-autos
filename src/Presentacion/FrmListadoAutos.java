@@ -33,7 +33,7 @@ public class FrmListadoAutos extends javax.swing.JFrame implements IFormActive{
         this.setResizable(false);
         
         this.defaultTable.addColumn("Id");
-        this.defaultTable.addColumn("Tipo de Usuario");
+        this.defaultTable.addColumn("Modelo de Auto");
         this.defaultTable.addColumn("Placa");
         this.defaultTable.addColumn("Precio");
         this.defaultTable.addColumn("Descripcion");

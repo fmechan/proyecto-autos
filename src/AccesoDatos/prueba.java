@@ -2,13 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Modelo;
+package AccesoDatos;
 
 /**
  *
- * @author LUIS GUIVAR
+ * @author Usuario
  */
-public class Miclase {
-    
-    /// la guivar es chivin
+public class prueba {
+    ///hola
 }
