@@ -18,7 +18,7 @@ import javax.swing.border.EmptyBorder;
 public class FrmClientes extends javax.swing.JFrame {
     
     Roles clsRole = new Roles();
-    
+    // EJEMPLO
     EForm formActive;
     private int id;
     /**
